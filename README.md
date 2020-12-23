@@ -9,7 +9,7 @@
 
 ## 简介
 
-基于![unidbg](https://github.com/zhkl0228/unidbg)实现了Android arm32位的多线程，目前还有许多不完善的地方。
+基于[unidbg](https://github.com/zhkl0228/unidbg)实现了Android arm32位的多线程，目前还有许多不完善的地方。
 测试代码 /unidbg-android/src/test/java/com/ThreadTest.java
 
 ### 存在的问题
