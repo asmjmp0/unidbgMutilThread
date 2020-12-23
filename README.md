@@ -12,6 +12,10 @@
 基于![unidbg](https://github.com/zhkl0228/unidbg)实现了Android arm32位的多线程，目前还有许多不完善的地方。
 测试代码 /unidbg-android/src/test/java/com/ThreadTest.java
 
+### 存在的问题
+由于是使用指令条数作为时间片，所以可能会被sleep阻塞，建议在syscall中patch掉sleep.
+
+
 ![](assets/mutil_threaad0.png)
 
 ![](assets/mutil_threaad1.png)
